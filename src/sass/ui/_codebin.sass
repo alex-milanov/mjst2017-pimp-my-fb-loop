@@ -1,0 +1,35 @@
+.codebin
+	margin: 10px 0px
+	min-width: 880px
+	display: inline-block
+	code
+		font-family: monospace
+		font-size: 1.1em
+		white-space: pre
+		display: inline-block
+		float: left
+		padding: 10px
+		color: #3e434c
+		tab-size: 2
+		transition: box-shadow .3s
+		&.source
+			min-width: 400px
+			border: 1px solid #969dab
+			box-shadow: inset 0px 0px 0px #949fa9, 2px 2px 3px rgba(0,0,0,0)
+			&:focus
+				outline: none
+				box-shadow: inset 0px 0px 55px #949fa9, 2px 2px 3px #8a8f96
+	.output
+		text-align: left
+		width: 340px
+		display: inline-block
+		float: left
+		code.console
+			width: 100%
+			.err
+				color: #800
+				font-size: inherit
+		iframe
+			width: 100%
+			height: 0px
+			border: 0px
