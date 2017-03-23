@@ -79,7 +79,24 @@ npm start
 - **node-sass** src/sass/style.sass dist/css/style.css
 - **browserify** src/js/index.js -o dist/js/app.js
 
+### Simple Scripts when needed
+```js
+'use strict';
+
+const path = require('path');
+
+const paths = [].concat(
+	require('bourbon').includePaths,
+	require('bourbon-neat').includePaths,
+	require('code-prettify').includePaths,
+	path.resolve(__dirname, '..', 'node_modules/font-awesome/scss')
+);
+
+process.stdout.write(paths.join(':'));
+```
+
 ## Hot Module Replacemet
+- Updating the functionality without Refreshing or Changing the State
 
 ### Usage
 
