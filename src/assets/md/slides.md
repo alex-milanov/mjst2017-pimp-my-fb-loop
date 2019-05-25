@@ -95,7 +95,7 @@ const paths = [].concat(
 process.stdout.write(paths.join(':'));
 ```
 
-## Hot Module Replacemet
+## Hot Module Reload
 - Updating the functionality without Refreshing or Changing the State
 
 ### Usage
