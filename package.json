@@ -23,7 +23,7 @@
     "code-prettify": "github:alex-milanov/code-prettify",
     "font-awesome": "^4.7.0",
     "iblokz": "github:iblokz/iblokz",
-    "marked": "^0.3.6",
+    "marked": "^4.0.10",
     "raf-stream": "^3.0.0",
     "rx": "^4.1.0",
     "rx-node": "^1.0.2",
